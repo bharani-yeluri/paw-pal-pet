@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-cream">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#2e5039" />
+  <title>Bird Care Guide — PawPal</title>
+  <meta name="description" content="A complete pet bird care guide from PawPal: cage setup, balanced diet, enrichment, grooming, and health advice for companion birds." />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand" aria-label="PawPal home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="5.5" cy="12.5" r="1.9"/><circle cx="9.5" cy="7.5" r="1.9"/><circle cx="14.5" cy="7.5" r="1.9"/><circle cx="18.5" cy="12.5" r="1.9"/><path d="M12 12.5c-2.7 0-4.9 1.9-4.9 4.3 0 1.9 1.9 3.2 4.9 3.2s4.9-1.3 4.9-3.2c0-2.4-2.2-4.3-4.9-4.3z"/></svg>
+      </span>
+      PawPal
+    </a>
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="index.html" class="nav-link" data-nav="index.html">Home</a>
+      <div class="nav-item has-dropdown">
+        <a href="pet-care.html" class="nav-link" data-nav="pet-care.html,dogs.html,cats.html,rabbits.html,birds.html,hamsters.html">Pet Care
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </a>
+        <div class="dropdown">
+          <a href="pet-care.html"><span class="ico" aria-hidden="true">&#127775;</span>Care overview</a>
+          <a href="dogs.html"><span class="ico" aria-hidden="true">&#128021;</span>Dogs</a>
+          <a href="cats.html"><span class="ico" aria-hidden="true">&#128008;</span>Cats</a>
+          <a href="rabbits.html"><span class="ico" aria-hidden="true">&#128048;</span>Rabbits</a>
+          <a href="birds.html"><span class="ico" aria-hidden="true">&#128038;</span>Birds</a>
+          <a href="hamsters.html"><span class="ico" aria-hidden="true">&#128057;</span>Hamsters &amp; small pets</a>
+        </div>
+      </div>
+      <div class="nav-item has-dropdown">
+        <a href="feeding.html" class="nav-link" data-nav="feeding.html,grooming.html,exercise.html,training.html,home-safety.html,bonding.html">Guides
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </a>
+        <div class="dropdown">
+          <a href="feeding.html"><span class="ico" aria-hidden="true">&#127837;</span>Feeding</a>
+          <a href="grooming.html"><span class="ico" aria-hidden="true">&#129532;</span>Grooming</a>
+          <a href="exercise.html"><span class="ico" aria-hidden="true">&#127939;</span>Exercise &amp; play</a>
+          <a href="training.html"><span class="ico" aria-hidden="true">&#127891;</span>Training</a>
+          <a href="home-safety.html"><span class="ico" aria-hidden="true">&#127968;</span>Home safety</a>
+          <a href="bonding.html"><span class="ico" aria-hidden="true">&#128149;</span>Bonding</a>
+        </div>
+      </div>
+      <a href="guides.html" class="nav-link" data-nav="guides.html,guide-detail.html">Articles</a>
+      <div class="nav-item has-dropdown">
+        <a href="pet-plan.html" class="nav-link" data-nav="pet-plan.html,daily-routine.html">Tools
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </a>
+        <div class="dropdown">
+          <a href="pet-plan.html"><span class="ico" aria-hidden="true">&#128203;</span>Build a pet plan</a>
+          <a href="daily-routine.html"><span class="ico" aria-hidden="true">&#9200;</span>Daily routine</a>
+        </div>
+      </div>
+      <a href="about.html" class="nav-link" data-nav="about.html">About</a>
+      <a href="contact.html" class="nav-link" data-nav="contact.html">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a href="pet-plan.html" class="btn btn--primary btn--sm">Build a pet plan</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
+        <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <div class="m-group"><a href="index.html" class="m-link">Home</a></div>
+  <div class="m-group">
+    <button class="m-link m-toggle" aria-expanded="false">Pet Care
+      <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <div class="m-sub">
+      <a href="pet-care.html">Care overview</a>
+      <a href="dogs.html">Dogs</a>
+      <a href="cats.html">Cats</a>
+      <a href="rabbits.html">Rabbits</a>
+      <a href="birds.html">Birds</a>
+      <a href="hamsters.html">Hamsters &amp; small pets</a>
+    </div>
+  </div>
+  <div class="m-group">
+    <button class="m-link m-toggle" aria-expanded="false">Guides
+      <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <div class="m-sub">
+      <a href="feeding.html">Feeding</a>
+      <a href="grooming.html">Grooming</a>
+      <a href="exercise.html">Exercise &amp; play</a>
+      <a href="training.html">Training</a>
+      <a href="home-safety.html">Home safety</a>
+      <a href="bonding.html">Bonding</a>
+    </div>
+  </div>
+  <div class="m-group"><a href="guides.html" class="m-link">Articles</a></div>
+  <div class="m-group">
+    <button class="m-link m-toggle" aria-expanded="false">Tools
+      <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </button>
+    <div class="m-sub">
+      <a href="pet-plan.html">Build a pet plan</a>
+      <a href="daily-routine.html">Daily routine</a>
+    </div>
+  </div>
+  <div class="m-group"><a href="about.html" class="m-link">About</a></div>
+  <div class="m-group"><a href="contact.html" class="m-link">Contact</a></div>
+  <a href="pet-plan.html" class="btn btn--primary btn--block">Build a pet plan</a>
+</div>
+
+  <main>
+    <div class="container breadcrumbs">
+      <nav aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li class="sep" aria-hidden="true">/</li><li><a href="pet-care.html">Pet Care</a></li><li class="sep" aria-hidden="true">/</li><li aria-current="page">Birds</li></ol></nav>
+    </div>
+
+    <section class="page-hero">
+      <div class="container page-hero-grid">
+        <div class="reveal">
+          <span class="eyebrow">Bird care</span>
+          <h1 class="display" style="font-size:54px">A bright, social life for your bird</h1>
+          <p class="lead">Companion birds are intelligent and highly social. Thoughtful cage setup, a varied diet, and daily interaction keep them healthy and happy.</p>
+          <div class="pill-row mt-24"><span class="pill">Lifespan varies widely</span><span class="pill">Very social</span><span class="pill">Needs enrichment</span><span class="pill">Sensitive to fumes</span></div>
+          <div class="hero-cta mt-24"><a href="pet-plan.html" class="btn btn--primary">Build a bird care plan</a><a href="home-safety.html" class="btn btn--ghost">Home safety</a></div>
+        </div>
+        <div class="page-hero-media reveal"><img src="images/species-birds.png" alt="A colorful, healthy companion bird perched" style="object-position:center 25%" /></div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head reveal"><span class="eyebrow">Care focus</span><h2 class="title">Choose a care area</h2><p class="lead">Explore the essentials of a healthy, enriched bird life.</p></div>
+        <div class="pill-row reveal" data-select-group="birdcare" style="margin-bottom:28px">
+          <button class="btn btn--ghost is-selected" data-select="cage" aria-pressed="true">Cage &amp; setup</button>
+          <button class="btn btn--ghost" data-select="diet" aria-pressed="false">Diet</button>
+          <button class="btn btn--ghost" data-select="enrichment" aria-pressed="false">Enrichment</button>
+        </div>
+        <div data-panel-group="birdcare" data-panel="cage" class="is-active feature reveal">
+          <h3>A safe, roomy cage</h3><p class="text-muted" style="margin-bottom:16px">Space to move and climb is vital to a bird&apos;s wellbeing.</p>
+          <ul class="bullets" style="list-style:none;display:grid;gap:10px"><li style="position:relative;padding-left:26px">Choose the largest cage you can, with bar spacing suited to your species.</li><li style="position:relative;padding-left:26px">Offer varied perch sizes and textures.</li><li style="position:relative;padding-left:26px">Place the cage in a social but calm area, away from the kitchen.</li><li style="position:relative;padding-left:26px">Provide daily out-of-cage time in a bird-safe room.</li></ul>
+        </div>
+        <div data-panel-group="birdcare" data-panel="diet" hidden class="feature reveal">
+          <h3>A varied, balanced diet</h3><p class="text-muted" style="margin-bottom:16px">Seeds alone are not enough for most companion birds.</p>
+          <ul class="bullets" style="list-style:none;display:grid;gap:10px"><li style="position:relative;padding-left:26px">Base the diet on quality pellets suited to your species.</li><li style="position:relative;padding-left:26px">Add fresh vegetables and small amounts of fruit.</li><li style="position:relative;padding-left:26px">Avoid avocado, chocolate, and caffeine — all toxic to birds.</li><li style="position:relative;padding-left:26px">Refresh food and water daily.</li></ul>
+        </div>
+        <div data-panel-group="birdcare" data-panel="enrichment" hidden class="feature reveal">
+          <h3>Daily mental enrichment</h3><p class="text-muted" style="margin-bottom:16px">Bored birds can develop stress behaviors — keep minds busy.</p>
+          <ul class="bullets" style="list-style:none;display:grid;gap:10px"><li style="position:relative;padding-left:26px">Rotate foraging toys and puzzles regularly.</li><li style="position:relative;padding-left:26px">Spend time talking and interacting each day.</li><li style="position:relative;padding-left:26px">Offer safe items to chew and shred.</li><li style="position:relative;padding-left:26px">Maintain a consistent light and sleep schedule.</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal"><span class="eyebrow">The essentials</span><h2 class="title">Everyday bird care</h2></div>
+        <div class="grid grid-4 reveal">
+          <a href="feeding.html" class="feature"><div class="fico"><span aria-hidden="true" style="font-size:24px">&#127837;</span></div><h3>Feeding</h3><p>Pellet-based diet with fresh produce.</p></a>
+          <a href="home-safety.html" class="feature"><div class="fico"><span aria-hidden="true" style="font-size:24px">&#127968;</span></div><h3>Cage setup</h3><p>Space, perches, and a safe location.</p></a>
+          <a href="exercise.html" class="feature"><div class="fico"><span aria-hidden="true" style="font-size:24px">&#129717;</span></div><h3>Enrichment</h3><p>Foraging toys and daily interaction.</p></a>
+          <a href="grooming.html" class="feature"><div class="fico"><span aria-hidden="true" style="font-size:24px">&#129532;</span></div><h3>Grooming</h3><p>Bathing and nail and beak monitoring.</p></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head section-head--center reveal"><span class="eyebrow">Good to know</span><h2 class="title">Common bird care questions</h2></div>
+        <div class="accordion reveal">
+          <div class="acc-item"><button class="acc-trigger" aria-expanded="false">Are seeds a complete diet?<span class="plus" aria-hidden="true">+</span></button><div class="acc-panel"><div class="acc-panel-inner">For most companion birds, no. A seed-only diet lacks key nutrients. A quality pellet base supplemented with fresh vegetables provides far better balance.</div></div></div>
+          <div class="acc-item"><button class="acc-trigger" aria-expanded="false">What household items are dangerous?<span class="plus" aria-hidden="true">+</span></button><div class="acc-panel"><div class="acc-panel-inner">Fumes from non-stick cookware, scented candles, aerosols, and smoke can be fatal to birds. Keep birds well away from the kitchen and any strong airborne chemicals.</div></div></div>
+          <div class="acc-item"><button class="acc-trigger" aria-expanded="false">How much attention do birds need?<span class="plus" aria-hidden="true">+</span></button><div class="acc-panel"><div class="acc-panel-inner">Companion birds are social and need daily interaction and out-of-cage time. Without enough engagement they can become stressed, so plan for regular quality time.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container"><div class="cta-band reveal"><h2>Build your bird&apos;s care plan</h2><p>Get tailored diet, habitat, and enrichment guidance for your bird.</p><div class="btn-group"><a href="pet-plan.html" class="btn btn--light">Start the pet plan</a></div></div></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" aria-label="PawPal home">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="5.5" cy="12.5" r="1.9"/><circle cx="9.5" cy="7.5" r="1.9"/><circle cx="14.5" cy="7.5" r="1.9"/><circle cx="18.5" cy="12.5" r="1.9"/><path d="M12 12.5c-2.7 0-4.9 1.9-4.9 4.3 0 1.9 1.9 3.2 4.9 3.2s4.9-1.3 4.9-3.2c0-2.4-2.2-4.3-4.9-4.3z"/></svg></span>
+          PawPal
+        </a>
+        <p>Calm, trustworthy care guidance for every pet — helping you raise a happy, healthy companion for life.</p>
+        <div class="footer-social">
+          <a href="contact.html" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg></a>
+          <a href="contact.html" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="contact.html" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.5 6.5a2.8 2.8 0 0 0-2-2C18.8 4 12 4 12 4s-6.8 0-8.5.5a2.8 2.8 0 0 0-2 2A29 29 0 0 0 1 12a29 29 0 0 0 .5 5.5 2.8 2.8 0 0 0 2 2C5.2 20 12 20 12 20s6.8 0 8.5-.5a2.8 2.8 0 0 0 2-2A29 29 0 0 0 23 12a29 29 0 0 0-.5-5.5z"/><polygon points="10 15 15 12 10 9 10 15"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Pet Care</h4><ul><li><a href="dogs.html">Dogs</a></li><li><a href="cats.html">Cats</a></li><li><a href="rabbits.html">Rabbits</a></li><li><a href="birds.html">Birds</a></li><li><a href="hamsters.html">Hamsters &amp; small pets</a></li></ul></div>
+      <div class="footer-col"><h4>Guides</h4><ul><li><a href="feeding.html">Feeding</a></li><li><a href="grooming.html">Grooming</a></li><li><a href="exercise.html">Exercise</a></li><li><a href="training.html">Training</a></li><li><a href="bonding.html">Bonding</a></li></ul></div>
+      <div class="footer-col"><h4>PawPal</h4><ul><li><a href="about.html">About us</a></li><li><a href="guides.html">Articles</a></li><li><a href="pet-plan.html">Pet plan tool</a></li><li><a href="daily-routine.html">Daily routine</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> PawPal. Made with care for pets everywhere.</span>
+      <div class="links"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a><a href="contact.html">Contact</a></div>
+    </div>
+  </div>
+</footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "pawpal",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@12.3.4",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  }
+}
